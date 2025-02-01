@@ -69,10 +69,35 @@
 }
 
 .gr-title {
-  @apply bg-gradient-to-r from-[#02a5e0] via-[#0000b0] to-[#0000b0] text-transparent bg-clip-text;
+  background: linear-gradient(270.41deg, #02a5e0 19.32%, #0000b0 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.title {
+  @apply text-3xl md:text-5xl font-bold pb-10 mt-20;
 }
 
 .bg-gr {
-  @apply bg-[linear-gradient(272.66deg,#02A5E0_19.32%,#0000B0_100%)];
+  background: linear-gradient(272.66deg, #02a5e0 19.32%, #0000b0 100%);
+}
 
+.gr-white {
+  background: linear-gradient(
+    270.84deg,
+    rgba(255, 255, 255, 0.49) 18.06%,
+    #ffffff 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
