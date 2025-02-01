@@ -9,7 +9,7 @@ const HomePage = () => {
             Daromadli kelajak sari qadam tashlang!
           </h1>
           <div className="z-50 block md:hidden"></div>
-          <div className="z-50 bg-transparent md:bg-white/70 rounded-xl flex flex-col items-center justify-center gap-5 p-5 md:p-10 md:w-[500px] backdrop-blur-2xl">
+          <div className="z-50 bg-white/40 border border-blue-200 rounded-xl flex flex-col items-center justify-center gap-5 py-8 px-5 mx-3 md:px-10 md:py-10  md:w-[500px] backdrop-blur-sm">
             <div className="text-3xl md:text-4xl md:py-2 font-bold gr-title text-center">
               Ochiq darsga yoziling!
             </div>
