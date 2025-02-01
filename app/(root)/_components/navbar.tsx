@@ -6,7 +6,7 @@ import Mobile from "./mobile";
 
 const Navbar = () => {
   return (
-    <div className="max-w-6xl mx-auto px-2 flex items-center justify-between h-[9vh]">
+    <div className="max-w-6xl mx-auto px-2 flex items-center justify-between h-[9dvh]">
       <div className="md:hidden flex">
         <Mobile />
       </div>
