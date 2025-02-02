@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import widthPlaiceholder from "@plaiceholder/next";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -8,4 +9,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default widthPlaiceholder(nextConfig);

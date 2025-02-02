@@ -6,6 +6,7 @@ import { comments, courses, results, why } from "@/constants";
 import WhyItem from "../_components/why-item";
 import CourseCard from "../_components/course-card";
 import Partners from "../_components/partners";
+import BlurImage from "@/components/shared/blur-image";
 
 const HomePage = () => {
   return (
@@ -38,7 +39,7 @@ const HomePage = () => {
             <div className="font-bold gr-title text-2xl py-3">
               Muvaffaqiyatli tugatganlar
             </div>
-            <Image
+            <BlurImage
               src="/images/about1.webp"
               width={200}
               height={200}
@@ -50,7 +51,7 @@ const HomePage = () => {
             <div className="font-bold gr-title text-xl py-3">
               Ishga joylashgan bitiruvchilarimiz
             </div>
-            <Image
+            <BlurImage
               src="/images/about2.webp"
               width={200}
               height={200}
@@ -112,7 +113,7 @@ const HomePage = () => {
               </Button>
             </div>
           </div>
-          <Image
+          <BlurImage
             src={"/images/banner.png"}
             className="w-full md:w-auto"
             width={645}
